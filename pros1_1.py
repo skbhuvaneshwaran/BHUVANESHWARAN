@@ -7,6 +7,6 @@ m=zip(*l)
 n=list(m)
 for j in n:
   if(len(j)==j.count(j[0])):
-    print(j[0],end=" ")
+    print(j[0])
   else:
     break
