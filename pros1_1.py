@@ -1,7 +1,7 @@
 l=[]
-i=int(input("no of strings"))
+i=int(input())
 for j in range(0,i):
-  k=list(input("enter string"))
+  k=list(input())
   l.append(k)
 m=zip(*l)
 n=list(m)
